@@ -1,0 +1,11 @@
+{
+  "name": "ft-fullstack-assessment",
+  "version": "1.0.0",
+  "description": "A JavaScript Package that ● fetch an array of URLs which contain JSON data",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Hamza Naveed",
+  "license": "MIT"
+}
