@@ -4,9 +4,9 @@
 ![npm](https://img.shields.io/github/forks/hamzanaveedmalik/request-multiple-urls)
 ![npm](https://img.shields.io/github/stars/hamzanaveedmalik/request-multiple-url)
 
-A JavaScript package that is able to:&nbsp
-● fetch an array of URLs which contain JSON data&nbsp
-● return their contents in a promise&nbsp
+A JavaScript package that is able to  
+● fetch an array of URLs which contain JSON data  
+● return their contents in a promise  
 
 # Install
 Run the the below command in the terminal
