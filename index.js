@@ -2,7 +2,7 @@
 
 const fetch = require('node-fetch')
 
-module.exports = requestMultipleUrls = (parsedUrls) => {
+module.exports = function requestMultipleUrls(parsedUrls) {
     let data = Promise.all(
         parsedUrls.map(url => {
             fetch(url)
