@@ -2,9 +2,9 @@
 
 const fetch = require('node-fetch')
 
-module.exports = function requestMultipleUrls(parsedUrls) {
+module.exports = function requestMultipleUrls(urls) {
     let data = Promise.all(
-        parsedUrls.map(url => {
+        urls.map(url => {
             fetch(url)
                 .then(checkStatus)
                 .then(parseJSON)
@@ -15,8 +15,12 @@ module.exports = function requestMultipleUrls(parsedUrls) {
 }
 
 const checkStatus = (res) => {
-    if (res.ok) { return Promise.resolve(res) }
-    else { return Promise.reject(new Error(res.statusText)) }
+    if (res.ok) {
+        return Promise.resolve(res)
+    }
+    else {
+        return Promise.reject(new Error(res.statusText))
+    }
 }
 
 const parseJSON = (res) => { return res.json() }
