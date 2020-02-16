@@ -1,6 +1,6 @@
 {
   "name": "ft-request-multiple-urls",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A JavaScript Package that fetches an array of URLs which and returns JSON data using promises",
   "main": "index.js",
   "scripts": {
