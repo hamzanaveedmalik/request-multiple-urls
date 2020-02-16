@@ -8,7 +8,7 @@ module.exports = function requestMultipleUrls(urls) {
             fetch(url)
                 .then(checkStatus)
                 .then(parseJSON)
-                .catch(error => { console.log(`The following error has occurred: ${error}`) })
+                .catch(error => { console.log(`The following error has occurred: ${error}`); })
         ))
     )
     return data;
