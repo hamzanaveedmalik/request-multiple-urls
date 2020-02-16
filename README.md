@@ -1,4 +1,7 @@
 # request-multiple-urls
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/cb41022f62ba4f4388d563c895a662d0)](https://app.codacy.com/manual/hamzanaveedmalik/request-multiple-urls?utm_source=github.com&utm_medium=referral&utm_content=hamzanaveedmalik/request-multiple-urls&utm_campaign=Badge_Grade_Dashboard)
+
 ![npm](https://img.shields.io/github/license/hamzanaveedmalik/request-multiple-urls)
 ![npm](https://img.shields.io/github/issues/hamzanaveedmalik/request-multiple-urls)
 ![npm](https://img.shields.io/github/forks/hamzanaveedmalik/request-multiple-urls)
