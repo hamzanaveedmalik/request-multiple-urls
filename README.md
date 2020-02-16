@@ -8,14 +8,14 @@ A JavaScript package that is able to
 ● fetch an array of URLs which contain JSON data  
 ● return their contents in a promise  
 
-# Install
+## Install
 Run the the below command in the terminal
 ```
 npm install ft-request-multiple-urls 
 
 ```
 
-# Example Usage
+## Example Usage
 ```
 const requestMultipleUrls = require('request-multiple-urls')
 
@@ -35,14 +35,9 @@ getData()
 
 ```
 
-# Dependencies
+## Dependencies
 
-## node-fetch
+### node-fetch
 
 ```node-fetch ``` makes use of minimal code for a window.fetch compatible API on Node.js runtime. It uses native Node streams for body, on both request and response. Also, it uses native promise, but allow substituting it with [insert your favorite promise library].
 
-
-```
-
-
-# Tests
