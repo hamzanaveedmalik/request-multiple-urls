@@ -16,13 +16,13 @@ const parseJSON = (res) => {
 }
 module.exports = function requestMultipleUrls(urls) {
     var data = Promise.all(
-        urls.map(url => (
+        urls.map((url) =>
             fetch(url)
                 .then(checkStatus)
                 .then(parseJSON)
-                .catch(error => { console.log(`The following error has occurred: ${error}`) })
-        ))
-    )
+                .catch((error) => { console.log(`The following error has occurred: ${error}`); })
+        )
+    );
     return data;
-}
+};
 
