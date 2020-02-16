@@ -1,4 +1,4 @@
-# request-multiple-urls
+# ft-request-multiple-urls
 ![npm](https://img.shields.io/github/license/hamzanaveedmalik/request-multiple-urls)
 ![npm](https://img.shields.io/github/issues/hamzanaveedmalik/request-multiple-urls)
 ![npm](https://img.shields.io/github/forks/hamzanaveedmalik/request-multiple-urls)
@@ -18,7 +18,7 @@ npm install ft-request-multiple-urls
 ## Example Usage
 
 ```
-const requestMultipleUrls = require('request-multiple-urls')
+const requestMultipleUrls = require('ft-request-multiple-urls')
 
 const urls = [
 'https://ft-tech-test-example.s3-eu-west-1.amazonaws.com/ftse-fsi.json', 
