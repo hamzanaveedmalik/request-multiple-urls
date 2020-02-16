@@ -40,4 +40,3 @@ getData()
 ### node-fetch
 
 ```node-fetch ``` makes use of minimal code for a window.fetch compatible API on Node.js runtime. It uses native Node streams for body, on both request and response. Also, it uses native promise, but allow substituting it with [insert your favorite promise library].
-
