@@ -5,15 +5,15 @@ const fetch = require("node-fetch");
 const checkStatus = (res) => {
     if (res.ok) { return Promise.resolve(res); }
     else { return Promise.reject(new Error(res.statusText)); }
-};
+}
 
 const parseJSON = (res) => {
     return {
         url: res.url,
         status: res.statusText,
         body: res.json()
-    }
-};
+    };
+}
 module.exports = function requestMultipleUrls(urls) {
     var data = Promise.all(
         urls.map((url) =>

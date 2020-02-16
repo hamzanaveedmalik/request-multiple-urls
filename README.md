@@ -16,6 +16,7 @@ npm install ft-request-multiple-urls
 ```
 
 ## Example Usage
+
 ```
 const requestMultipleUrls = require('request-multiple-urls')
 
