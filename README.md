@@ -3,6 +3,7 @@
 ![npm](https://img.shields.io/github/issues/hamzanaveedmalik/request-multiple-urls)
 ![npm](https://img.shields.io/github/forks/hamzanaveedmalik/request-multiple-urls)
 ![npm](https://img.shields.io/github/stars/hamzanaveedmalik/request-multiple-url)
+[![Known Vulnerabilities](https://snyk.io/test/github/hamzanaveedmalik/request-multiple-urls/badge.svg?targetFile=package.json)](https://snyk.io/test/github/hamzanaveedmalik/request-multiple-urls?targetFile=package.json)
 
 A JavaScript package that is able to  
 ● fetch an array of URLs which contain JSON data  
