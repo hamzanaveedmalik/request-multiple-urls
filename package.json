@@ -9,7 +9,7 @@
   "author": "Hamza Naveed",
   "license": "ISC",
   "dependencies": {
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.1"
   },
   "keywords": [
     "node-fetch",
